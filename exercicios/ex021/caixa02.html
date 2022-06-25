@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(70, 14, 14);
+            color: white;
+        }
+        header {
+            color: rgb(255, 255, 255);
+            text-align: center;
+            background-color: rgb(126, 0, 0);
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: rgba(255, 255, 255, 0.363);
+            padding: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0.315);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            color: rgba(124, 27, 27, 0.808);
+            text-decoration: underline;
+            font-weight: 600;
+        }
+        main{
+            background-color: rgba(255, 255, 255, 0.096);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        section#abertura {
+            margin: auto;
+            text-align: center;
+        }
+        section#assuntos {
+            text-align: center;
+        }
+        section#assuntos > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        section#assuntos:hover {
+            color: rgba(124, 27, 27, 0.808);
+            text-decoration: underline;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="imagens/LOGO.png" alt="Logo Asics">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Trabalhos</a>
+            <a href="#">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <section id="abertura">
+           <video src="videos/video-introducao.mp4" width="auto" autoplay preload="auto" controls></video>
+        </section>
+        <section id="assuntos">
+            <nav>
+            <a href="#">Esportes </a>
+            <a href="#">Política </a>
+            <a href="#">Tecnologia</a>
+        </nav>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi magni ipsa quia quas enim error corporis. Necessitatibus illum facere cumque! Modi natus quas at quae quis illum rerum voluptate error.
+                </p>
+                <aside>
+                    Artigo escrito por Francisco
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Lodnerb</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
